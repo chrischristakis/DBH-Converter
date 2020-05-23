@@ -1,0 +1,81 @@
+* {
+  font-family: customFont, monospace;
+}
+
+body {
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: white; /*for old browsers */
+  background-image: linear-gradient(45deg, #7ce2ff, #ff23ce);
+}
+
+.button {
+  font-size: 1.7em;
+  color: #3ac5e8;
+  border: 2px solid #3ac5e8;
+  cursor:pointer;
+  text-decoration: none;
+  background-color:white;
+  border-radius: 10px;
+  outline:none;
+}
+
+.button:hover {
+  transition-duration: 0.3s;
+  background-color: #3ac5e8;
+  color:white;
+}
+
+.button:active {
+  transition-duration: 0.0s;
+  background-color: #2f869c;
+  color:white;
+}
+
+@font-face {
+  font-family: customFont;
+  src: url(res/VarelaRound-Regular.ttf);
+}
+
+#main-container {
+  border-radius: 25px;
+  width: 500px;
+  height: 600px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -250px;
+  margin-top: -300px;
+  background-color: white;
+}
+
+h3 {
+  text-align: center;
+  margin: 4px;
+  padding:0;
+}
+
+textarea.field {
+  display:block;
+  width: 80%;
+  height: 20%;
+  margin-left: 10%; /*20% on each side*/
+  margin-top: 0%;
+  border-radius: 10px;
+  background-color:#def7fc;
+  resize:none;
+  outline: none;
+}
+
+textarea.field:hover {
+  background-color: #c5e0e6;
+}
+
+.button {
+  position:absolute;
+  width: 50%;
+  height: 15%;
+  bottom:3.5%;
+  left:25%;
+}
